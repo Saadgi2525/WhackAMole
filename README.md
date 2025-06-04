@@ -1,7 +1,3 @@
-Here's a well-structured README file for your Whack-a-Mole game project:
-
----
-
 # Whack-a-Mole 🎯
 
 ## Overview
