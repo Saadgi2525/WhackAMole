@@ -1,0 +1,140 @@
+.luckiest-guy-regular {
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+
+.fredoka-300 {
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+
+.align-text{
+    text-align: center;
+}
+
+body{
+    background-color: #FFD93D;
+    margin: 0;
+}
+
+.mole{
+    height: 125px;
+    background-image: url("mole.png");
+    background-size: 350px;
+    background-position: -40px -50px;
+    cursor: pointer;
+}
+
+.mole.show{
+    background-position: -175px -50px;
+}
+
+.button.selected {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.text-decorator{
+    color: #2C2C2C;
+    font-weight: 600;
+    font-size: 4rem;
+}
+
+#main-interface{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+#game-board {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    max-width: 800px;
+    margin: 0 auto; 
+    margin-bottom: 100px;
+    height: calc(100vh - 150px - 100px);
+}
+
+#game-board a {
+    width: 125px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* visibility: hidden; */
+}
+
+/* #game-board a.show { */
+    /* visibility: visible; */
+/* } */
+
+#game-board img {
+    width: 80%;
+    border-radius: 20px;
+}
+
+#score{
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.field{
+    border-color: #222831;
+    background-color: whitesmoke;
+    color: #222831;
+    text-align: center;
+    border-style: solid;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    width: 200px;
+    margin: 20px;
+}
+
+.button{
+    border: none;
+    background-color: #FF6F59;
+    color: white;
+    font-size: 14px;
+    height: 30px;
+    width: 80px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    border-radius: 4px;
+    margin: 2px;
+}
+
+.button:hover{
+    border: none;
+    background-color: #b84432;
+    color: rgb(255, 255, 255);
+}
+
+.button.selected:hover{
+    border: none;
+    background-color: #488d4a;
+    color: rgb(255, 255, 255);
+}
+
+#mobile-warning {
+    display: none;
+    color: red;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+  }
